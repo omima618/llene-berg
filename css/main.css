@@ -4,11 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0.2s linear;
-    -webkit-transition: 0.2s linear;
-    -moz-transition: 0.2s linear;
-    -ms-transition: 0.2s linear;
-    -o-transition: 0.2s linear;
 }
 :root {
     --main-color: #8460f6;
@@ -94,10 +89,20 @@ a {
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .button span {
     padding-left: 5px;
     font-size: 18px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .button:hover span {
     padding-left: 20px;
@@ -246,6 +251,11 @@ a {
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .history-section .container .history .text ul li:first-child {
     color: white;
@@ -258,6 +268,11 @@ a {
     color: var(--main-color);
     padding-right: 10px;
     font-size: 17px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .history-section .container .history .text ul li:hover {
     color: white;
@@ -332,10 +347,20 @@ a {
 }
 .features-section .container .features .column .icon {
     background-color: white;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .features-section .container .features .column .icon i {
     color: var(--sec-color);
     font-size: 40px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .features-section .container .features .column:hover .icon {
     background-color: var(--sec-color);
@@ -506,6 +531,11 @@ a {
     color: #777;
     font-size: 7px;
     margin-right: 2px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .projects-section ul li:hover {
     background-color: var(--main-color);
@@ -675,6 +705,11 @@ a {
 }
 .footer .container ul li a {
     color: white;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .footer .container ul li a:hover {
     color: #f9c400;
@@ -703,7 +738,7 @@ a {
     width: 22%;
     margin-bottom: 10px;
 }
-@media(max-width:992px){
+@media (max-width: 992px) {
     .footer .container .details {
         flex-wrap: wrap;
         margin-bottom: 20px;
@@ -713,12 +748,12 @@ a {
         margin-bottom: 30px;
     }
 }
-@media(max-width:768px){
+@media (max-width: 768px) {
     .footer .container .details div {
         width: 60%;
     }
 }
-@media(max-width:400px){
+@media (max-width: 400px) {
     .footer .container .details div {
         width: 100%;
     }
@@ -747,6 +782,13 @@ p span {
     border: 1px solid #0000001a;
     padding: 10px;
     margin: 0 10px 0 0;
+}
+.social span i {
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 .social span:hover i {
     color: #f9c400;
